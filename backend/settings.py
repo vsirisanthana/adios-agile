@@ -98,6 +98,8 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+
+    'ajax_helper.middleware.XsSharingMiddleware',
 )
 
 ROOT_URLCONF = 'backend.urls'
@@ -149,3 +151,6 @@ LOGGING = {
         },
     }
 }
+
+# Cross-domain AJAX
+XS_SHARING_ALLOWED_ORIGINS = 'http://localhost:8000'

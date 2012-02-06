@@ -1,3 +1,4 @@
 django
 djangorestframework
+hg+https://bitbucket.org/schinckel/django-ajax-helper
 yolk
