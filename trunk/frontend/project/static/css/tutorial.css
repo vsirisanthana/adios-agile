@@ -1,0 +1,21 @@
+.clear-both {
+    clear: both;
+}
+
+.templates {
+    display: none;
+}
+
+.card {
+    float: left;
+    background-color: #e6e6fa;
+    margin: 5px;
+}
+
+.card .card-points {
+    display: inline;
+}
+
+.card .card-destroy {
+    display: inline;
+}
