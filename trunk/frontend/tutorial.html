@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Backbone Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="css/tutorial.css" />
+</head>
+<body>
+    <div class="templates">
+        <div class="card-template">
+            <div class="card-name">{{ name }}</div>
+            <div class="card-points">{{ points }} points</div>
+            <div class="card-destroy">X</div>
+        </div>
+    </div>
+
+    <div id="project">
+        <div id="project-name"></div>
+        <div id="project-add-card-btn" class="add-card">Add card</div>
+    </div>
+
+    <div id="cards"></div>
+    <div class="clear-both"></div>
+    <div id="cards-count-div"><span id="cards-count" class="cards-count">100</span> points</div>
+
+    <script type="text/javascript" src="lib/jquery-1.7.1.min.js" ></script>
+    <script type="text/javascript" src="lib/json2.js" ></script>
+    <script type="text/javascript" src="lib/underscore.js" ></script>
+    <script type="text/javascript" src="lib/backbone.js" ></script>
+    <!--<script type="text/javascript" src="lib/backbone.localStorage.js" ></script>-->
+
+    <!--<script type="text/javascript" src="js/models.js" ></script>-->
+    <!--<script type="text/javascript" src="js/views.js" ></script>-->
+    <script type="text/javascript" src="js/tutorial.js" ></script>
+</body>
+</html>
