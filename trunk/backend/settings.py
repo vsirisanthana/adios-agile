@@ -154,3 +154,5 @@ LOGGING = {
 
 # Cross-domain AJAX
 XS_SHARING_ALLOWED_ORIGINS = 'http://localhost:8000'
+XS_SHARING_ALLOWED_METHODS = ['POST','GET','OPTIONS', 'PUT', 'DELETE']
+XS_SHARING_ALLOWED_HEADERS = 'Origin, Content-Type, Accept'
