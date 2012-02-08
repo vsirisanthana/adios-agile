@@ -81,7 +81,7 @@ $(function() {
     window.cardsView = new CardsView({
         el: $('#cards'),
         collection: cards
-    })
+    });
 
 
     window.ProjectView = Backbone.View.extend({
@@ -125,7 +125,7 @@ $(function() {
     window.projectView = new ProjectView({
         el: $('#project'),
         model: project
-    })
+    });
 
 });
 
